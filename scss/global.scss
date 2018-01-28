@@ -1,0 +1,35 @@
+
+body{
+	padding:15px 0 35vh 0;
+}
+#board{
+	width:calc(15*3em);
+}
+
+
+.square{
+	width:3em;
+	height:3em;
+	float:left;
+}
+
+.square.black{
+	background-color:#231f20;
+}
+.square.white{
+	background-color: #b9b9ba;
+}
+
+.square.darkGreen{
+	background-color:#00420e;
+}
+
+.square.lightGreen{
+	background-color:#97cf89;
+}
+
+.row:after{
+	content:'';
+	display: block;
+	clear: both;
+}
